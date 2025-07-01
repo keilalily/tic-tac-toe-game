@@ -7,7 +7,7 @@ export default function Square({ value, onClick }) {
     return (
         <Button
             onClick={onClick}
-            className={`w-20 h-20 text-2xl font-bold p-0 hover:cursor-pointer border border-gray-400 ${textColor}`}
+            className={`w-15 h-15 text-lg md:w-20 md:h-20 md:text-2xl font-bold p-0 hover:cursor-pointer border border-gray-400 ${textColor}`}
             variant="outline"
         >
         {value}
